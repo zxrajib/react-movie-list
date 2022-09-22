@@ -8,7 +8,7 @@ const Movie = ({movie}) => {
 console.log(movie);  
   return (
     <div className="container max-w-4xl mx-auto pt-6">
-      <Meta title={movie.title} />
+      {/* <Meta title={movie.title} /> */}
       <div >
       <Image className="rounded-t-md" src={`https://image.tmdb.org/t/p/original${movie.backdrop_path}`} width={1000} height={500}  />
       <h1 className="font-bold text-xl my-2">{movie.title}</h1>
